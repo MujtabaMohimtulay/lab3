@@ -73,7 +73,7 @@ const getClients = (request, response) => {
         });
     }
     else{
-        response.send("failed")
+        response.send("You dont have admin privileges")
     }
 };
 
